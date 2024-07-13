@@ -1,0 +1,3 @@
+# BraTS2020-Segmentation-with-DynUNET-UNET-and-SEGRESNET
+
+Her .ipynb dosyası ayrı bir modeli çalıştırır. Modellerin içindeki ön işlemelerde farklılıklar vardır ve asıl amacı modelin daha iyi çalışmasını sağlamaktır. Veri seti archive.zip, brats isimli bir dosyanın içinde GoogleDrive'a yüklenir. Kod çalışırken MONAI framework'ü 1.2 versiyonuyla yüklenmelidir. A100 GPU ile 54GB RAM için özelleştirmeler yapılmıştır, daha düşük RAM'e sahip sistemlerde çalışmayabilir. Modellerin içinde tabloda bulunan mean dice son epochtaki mean dice'ı gösterir. Paper'da kullanılan metrikler epochlar arasındaki en iyi sonuçlardan alınmıştır. Bu sonuçlar kodun içindeki evaulate döngüsünde gözüküyor.
